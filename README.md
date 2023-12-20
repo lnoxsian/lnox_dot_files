@@ -4,7 +4,7 @@ This is a repo containing all the configs for my linux configs.
 
 ## configs that are here
 1. **config.fish** - configs for my fish shell with my plugins
-> **plugins** used are oh-my-fish and fisher with apps
+> **plugins** used are starship and fisher with apps
 2. **alacritty.yml** - config for my personal snappy terminal with theme
 > **configs** has theme rose-pine and other personal changes
 3. **nvim** - my personal editor of choice with my sane configs and plugins
@@ -15,6 +15,8 @@ This is a repo containing all the configs for my linux configs.
 > **caution** please do use the aliases properly or edit it
 7. **Neovide** this is rust based gui frontend for neovim 
 > **configs** - all the configs are in the neovim folder all the configs load when neovide is launched
+8. **Starship** this is rust based prompt frontend for fish shell replaces the oh-my-fish plugin 
+> **configs** - all this is a simple starship prompt please do install it
 
 ## Caution
 > These are my configs and ***mine*** alone if you find it to be bothersome please do clone it 

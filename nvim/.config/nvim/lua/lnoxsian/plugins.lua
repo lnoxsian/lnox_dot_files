@@ -21,17 +21,7 @@ require("lazy").setup({
     'phaazon/hop.nvim',
     'akinsho/toggleterm.nvim',
     'kdheepak/lazygit.nvim',
-    {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-    },
-
-    {
-        'NeogitOrg/neogit',
-        dependencies = {
-            'sindrets/diffview.nvim',
-        },
-    },
+    'sindrets/diffview.nvim',
 
 	{ 'echasnovski/mini.nvim', version = '*' },
 

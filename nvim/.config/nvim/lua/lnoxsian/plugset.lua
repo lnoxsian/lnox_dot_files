@@ -1,11 +1,9 @@
+-- mini plugins
 require('mini.completion').setup()
 require('mini.comment').setup()
 require('mini.tabline').setup()
+require('mini.statusline').setup()
 require('mini.surround').setup()
-
-require("neogit").setup()
-
-require('lualine').setup()
 
 require("hop").setup()
 

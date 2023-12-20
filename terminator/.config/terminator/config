@@ -1,0 +1,36 @@
+[global_config]
+  title_transmit_bg_color = "#403c58"
+  title_inactive_fg_color = "#ffffff"
+  title_inactive_bg_color = "#6f6e85"
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1f1d29"
+<<<<<<< HEAD
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_blink = False
+    cursor_shape = underline
+=======
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_blink = False
+>>>>>>> 8a0ce4b (changed the terminator tranparency)
+    cursor_color = "#ffffff"
+    font = Hack Nerd Font 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#403c58:#ea6f91:#9bced7:#f1ca93:#34738e:#c3a5e6:#eabbb9:#faebd7:#6f6e85:#ea6f91:#9bced7:#f1ca93:#34738e:#c3a5e6:#eabbb9:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

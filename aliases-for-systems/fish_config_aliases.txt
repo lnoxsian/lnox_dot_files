@@ -1,0 +1,55 @@
+# basic alias for the system
+alias x=exit
+alias cls=clear
+alias ls="ls --color" # change to alternatives for ls eg: lsd, exa etc
+alias la="ls -a"
+alias ll="ls -al"
+alias lt="ls --tree"
+alias del="rm -rf"
+alias f=lf # change to alternatives for lf eg:nnn, broot etc
+alias gosu="sudo su -"
+
+# alternatives for all apps 
+alias cat=bat
+alias vim=nvim
+alias htop=btm
+alias du=dust
+
+
+# nvim alias
+alias nvim.="nvim ."
+
+# alias for tmux
+alias tmux="tmux -u" # change to alternatives for tmux eg: zellig etc
+
+# alias for fish or bash shell
+
+alias delfh="rm -rf /home/lnoxsian/.local/share/fish/fish_history;echo fish_history cleared" # [please do change the home folder to your choice]
+alias srcf="source /home/lnoxsian/.config/fish/config.fish" # [please do change the home folder to your choice]
+alias delbh="rm -rf ~/.bash_history;echo bash_history removed" # [works with bash shell]
+alias srcb="~/.bashrc" # [works with bash shell]
+
+# git all aliases
+alias gitcln="git clone"
+alias gitadd.="git add ."
+alias gitinit="git init"
+alias gitlog="git log"
+alias gitstat="git status"
+alias gitlog="git log"
+alias gitrev="git revert"
+
+# aliases for servers and other systems
+alias sysstart="sudo systemctl start"
+alias sysstop="sudo systemctl stop"
+alias sysrstart="sudo systemctl restart"
+alias sysdis="sudo systemctl disable"
+alias sysena="sudo systemctl disable"
+
+# cd aliases
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+
+

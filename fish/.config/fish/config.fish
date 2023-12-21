@@ -1,3 +1,5 @@
+# starship init fish | source
+fish_config theme choose "Rosé Pine"
 set fish_greeting
 if status is-interactive
     # Commands to run in interactive sessions can go here
@@ -7,6 +9,7 @@ alias del='rm -rf'
 alias x=exit
 alias xpow='sudo poweroff'
 alias xrpow='sudo reboot'
+alias xspow='sudo systemctl suspend'
 alias srcf='source ~/.config/fish/config.fish'
 alias delfh='rm -rf ~/.local/share/fish/fish_history'
 alias nv.='nvim .'

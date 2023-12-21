@@ -5,6 +5,8 @@ This is a repo containing all the configs for my linux configs.
 ## configs that are here
 1. **config.fish** - configs for my fish shell with my plugins
 > **plugins** used are starship and fisher with apps
+> **plugin-manager** currently i am using fisher for fish packages also oh-my-fish 
+> for the themes also for personal plugins rose-pine theme and fzf for fish
 2. **alacritty.yml** - config for my personal snappy terminal with theme
 > **configs** has theme rose-pine and other personal changes
 3. **nvim** - my personal editor of choice with my sane configs and plugins

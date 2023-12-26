@@ -10,7 +10,7 @@ window:
     y: 5
   dynamic_padding: false
   decoration: full
-  opacity: .90
+  opacity: .95
   startup_mode: Windowed
   title: Alacritty
   dynamic_title: true
@@ -21,7 +21,7 @@ scrolling:
 
 cursor:
   style:
-    shape: Underline
+    shape: Block
     blinking: Off
 mouse:
   mouse_binding:
@@ -59,8 +59,10 @@ colors:
     background: "0x191724"
     foreground: "0xe0def4"
   cursor:
-    text: "0xe0def4"
-    cursor: "0x524f67"
+    # text: "0xe0def4"
+    text: CellBackground
+    # cursor: "0x524f67"
+    cursor: CellForeground
   vi_mode_cursor:
     text: "0xe0def4"
     cursor: "0x524f67"
